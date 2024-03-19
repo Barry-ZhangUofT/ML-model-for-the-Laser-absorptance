@@ -14,4 +14,4 @@ Demo:
 Take an example: predict the laser absorptance value for Ti64 under 500W power; 600mm/s scan speed; 50micron laser spot radius. Download the GPRTi.mat file and import into MATLAB 2022.
 
 "X=[540,600,50];
-YPredict=AlGPR.predictFcn(X);"
+YPredict=TiGPR.predictFcn(X);"
