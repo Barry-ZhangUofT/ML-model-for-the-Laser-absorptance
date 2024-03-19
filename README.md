@@ -11,7 +11,7 @@ Description:
 These two Gaussian process regression models are established to predict laser absorptance based on processing parameters (P(W); v(mm/s); ro(μm)) for Ti-6Al-4V and Al6061. Models are trained based on the regression learner via MATLAB 2022.
 
 Demo:
-Take an example: predict the laser absorptance value for Ti64 under 500W power; 600mm/s scan speed; 50micron laser spot radius
+Take an example: predict the laser absorptance value for Ti64 under 500W power; 600mm/s scan speed; 50micron laser spot radius. Download the GPRTi.mat file and import into MATLAB 2022.
 
 "X=[540,600,50];
 YPredict=AlGPR.predictFcn(X);"
